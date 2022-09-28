@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "armorhudredesign",
+  "version": "${version}",
+
+  "name": "Armor Hud Redesign",
+  "description": "",
+  "authors": [
+    "Kly"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/armorhudredesign/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kly.armorhudredesign.ArmorHudRedesign"
+    ]
+  },
+  "mixins": [
+    "armorhudredesign.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
